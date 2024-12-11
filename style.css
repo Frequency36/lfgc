@@ -1,0 +1,125 @@
+header{
+    position: relative;
+}
+
+.myContainer{
+    position: absolute;
+    bottom: 26%;
+}
+
+.myStuff{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.content{
+    font-size: 18px;
+}
+
+.myStyle a{
+    display: flex;
+    width: 8%;
+    border: solid;
+    border-radius: 50% 0 0 50%;
+    position: fixed;
+    bottom: 5%;
+    right: 0;
+    justify-content: center;
+    padding: 5px;
+}
+.myStyle img{
+    display: flex;
+    width: 100%;
+}
+
+.backbtn img{
+    width: 12px;
+}
+
+@media (max-width:700px){
+    .myStyle{
+        padding: 100px;
+    }
+}
+
+.myButton1, .myButton2{
+    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.674);
+    background-color: #da073e;
+}
+
+.overlay{
+    /* background: linear-gradient(45deg,rgba(232, 77, 77, 0.384),rgba(255, 255, 255, 0.236)); */
+    background: linear-gradient(315deg,rgba(0, 0, 255, 0.2),rgba(255, 0, 0, 0.3));
+    position: absolute;
+    height: 100vh;
+}
+.myItem{
+    position: absolute;
+    bottom: 23%;
+    width: 70%;
+    left: 16%;
+    height: 51%;
+}
+.myItem2{
+    position: absolute;
+    bottom: 22%;
+    width: 70%;
+    left: 16%;
+    height: 57%;
+}
+.opening{
+    font-size: 14px;
+}
+
+
+@media (max-width:500px){
+    .XInfo{
+        font-size: 14px;
+    }
+}
+@media (max-width:756px){
+    .myItem{
+        font-size: 13px;
+    }
+}
+@media (max-width:463px){
+    .myItem{
+        font-size: 12px;
+    }
+}
+
+.next-arrow{
+    width: 9%;
+    position: absolute;
+    right: 1%;
+    bottom: 50%;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+}
+.next-arrow img{
+    width: 100%;
+}
+.prev-arrow{
+    width: 9%;
+    position: absolute;
+    left: 1%;
+    bottom: 50%;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+}
+.prev-arrow img{
+    width: 100%;
+}
+.pageNumber{
+    font-size: 15rem;
+    color: rgba(148, 182, 212, 0.474);
+}
+
+.myButton a{
+    position: absolute;
+    bottom: 16%;
+    right: 15%;
+    font-size: small;
+}
